@@ -1,0 +1,180 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400&family=Raleway:wght@300&family=Roboto:wght@100;300;400&display=swap');
+
+/* Body Styles */
+#indexBody {
+  background-color: #1F2833;
+  color: #C5C6C7;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #1F2833;
+}
+
+.navbar input,
+.navbar button {
+  background-color: #1F2833;
+  color: #C5C6C7;
+  border: 2px solid #45A29E;
+}
+
+/* Heading Styles */
+h1 {
+  padding-top: 120px;
+  text-align: center;
+  color: #66FCF1;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+/* Global Heading Styles */
+#indexBody h3 {
+  margin-bottom: 20px;
+}
+
+/* Add New Task Section Styles */
+.add input,
+.add textarea {
+  background-color: #1F2833;
+  color: #C5C6C7;
+  border: 2px solid #45A29E;
+}
+
+.add input:focus, .add textarea:focus{
+  background-color: #1F2833;
+  color: #ffd60a;
+  border: 2px dotted #a9def9;
+}
+
+.add ::placeholder {
+  color: #C5C6C7;
+}
+
+.add .btn {
+  margin-top: 20px;
+}
+
+#datePickerInput,
+#dueDate {
+  margin-left: 100px;
+}
+
+#dueDateErrorAlert {
+  margin-left: 90px;
+  width: 100%;
+}
+
+/* Invert date picker icon color for dark background */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+#taskBtn {
+  margin-left: 35%;
+  width: 45%;
+}
+
+#taskBtn:hover {
+  border: 2px solid #45A29E;
+  background-color: #45A29E;
+  color: #FFF;
+}
+
+.labels h5 {
+  margin-left: 0;
+}
+
+/* Horizontal Rule Styles */
+hr {
+  width: 70%;
+  margin: 80px auto;
+}
+
+.hrbottom {
+  border: hidden;
+}
+
+/* Task List Styles */
+.list-group-item h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+/* Footer Styles */
+footer *,
+.card-header,
+.card-footer {
+  background-color: #1F2833;
+  color: #C5C6C7;
+}
+
+footer .card-title {
+  color: #C5C6C7;
+}
+
+footer .btn {
+  border: 2px solid #45A29E;
+  color: #C5C6C7;
+}
+
+.card p,
+.card button {
+  color: #C5C6C7;
+}
+
+/* Error Alert Styles */
+.error-alert {
+  color: red;
+  background-color: transparent;
+  border: none;
+}
+
+.error-alert .alert-text {
+  margin: 0;
+  padding: 0;
+}
+
+/* Task Buttons Styles */
+ul .delete-button,
+ul .done-button,
+ul .inProgress-button {
+  border: 2px solid #C5C6C7;
+  color: #C5C6C7;
+}
+
+ul .delete-button:hover {
+  border: 2px solid red;
+  background-color: #780000;
+  color: #fdf0d5;
+}
+
+ul .done-button:hover {
+  border: 2px solid #6a994e;
+  background-color: #386641;
+  color: #f2e8cf;
+}
+
+ul .inProgress-button:hover {
+  border: 2px solid yellow;
+  background-color: #fca311;
+  color: #d81159;
+}
+
+/* Task Card Styles */
+.task-cards {
+  background-color: #1F2833;
+}
+
+.status-bar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+/* Task List Styles */
+#task-list {
+  background-color: #45A29E;
+}

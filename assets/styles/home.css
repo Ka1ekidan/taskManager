@@ -1,0 +1,101 @@
+/* Home page styles */
+
+/* Importing Google Fonts: 'Lato', 'Montserrat', 'Raleway', 'Roboto' */
+/* Pair with sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400&family=Raleway:wght@300&family=Roboto:wght@100;300;400&display=swap');
+
+/* Overall body styles */
+#indexBody {
+  background-color: #1F2833;
+  color: #C5C6C7;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Styles for the "manager" section */
+#manager {
+  padding-top: 120px;
+  text-align: center;
+  color: #66FCF1;
+  font-family: "lato-bold", 'lato', sans-serif;
+  font-size: 4rem;
+}
+
+/* Styles for the h1 headings */
+h1 {
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  color: #66FCF1;
+  font-family: "lato-bold", 'lato', sans-serif;
+  font-size: 5rem;
+}
+
+/* Styles for the h4 headings */
+h4 {
+  margin: 0;
+  padding-top: 250px;
+  text-align: center;
+  color: #C5C6C7;
+  font-family: "lato-bold", 'lato', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Overall body styles */
+body {
+  background-color: #1F2833;
+}
+
+/* Styles for anchor tags */
+a {
+  text-decoration: none;
+}
+
+/* Styles for form groups */
+.form-group {
+  text-align: center;
+}
+  
+/* Button styles */
+.btn {
+  border: 2px solid #1F2833;
+  background-color: #1F2833;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 15%;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+/* Success button styles */
+.success {
+  border-color: #45A29E;
+  color: #C5C6C7;
+}
+  
+.success:hover {
+  background-color: #45A29E;
+  color: white;
+}
+
+/* Styles for the "welcome" section */
+#welcome {
+  color: #66FCF1;
+  animation: slideIn 1s ease-in-out infinite alternate;
+}
+
+/* Keyframes animation for the "welcome" section */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
